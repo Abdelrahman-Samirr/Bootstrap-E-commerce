@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+h1,
+h3,
+h6,
+p {
+  margin-bottom: 0;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.primary-color {
+  color: #3BB77E;
+}
+
+.bg-light-green {
+  background-color: #DEF9EC;
+}
+
+.gray {
+  color: #7E7E7E;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-content-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-content-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button {
+  background-color: #3BB77E;
+  color: #FFFFFF;
+  border: none;
+}
+
+.custom-container {
+  width: 83%;
+  color: #253D4E;
+  margin: 0 auto;
+}
+
+.logo h3 {
+  font-size: 36px;
+  color: #253D4E;
+}
+
+.searchbar {
+  border: #BCE3C9 solid 2px;
+  padding: 16px;
+  margin-left: 87px;
+  font-size: 14px;
+}
+.searchbar input {
+  border: none;
+  width: 450px;
+}
+.searchbar .search-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav {
+  margin-top: 62px;
+}
+
+.nav__item {
+  padding-left: 20px;
+  color: #7E7E7E;
+  font-size: 14px;
+}
+
+.links {
+  margin-top: 35px;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  position: relative;
+}
+
+.left__links button {
+  border-radius: 5px;
+}
+
+.links__items {
+  margin-left: 80px;
+}
+
+.links__item {
+  padding-right: 38px;
+}
+
+.support-text {
+  color: #7E7E7E;
+  font-size: 12px;
+}
+
+.nav__left-category {
+  width: 300px;
+  margin-top: 30px;
+  margin-bottom: 66px;
+}
+
+.nav__left-products {
+  width: 300px;
+}
+
+.hero__right {
+  background-image: url("/assets/images/Section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1264px;
+  height: 586px;
+}
+
+.hero__right-content {
+  padding: 100px 500px 0 65px;
+}
+
+.hero__right-content p {
+  padding: 31px 0 65px;
+}
+
+.hero__right-content form {
+  width: 450px;
+}
+
+.product-head {
+  border-radius: 0 0 25px 0;
+  color: #FFFFFF;
+}
+
+.bg-hot {
+  background-color: #F74B81;
+}
+
+.bg-sale {
+  background-color: #67BCEE;
+}
+
+.bg-new {
+  background-color: #3BB77E;
+}
+
+.bg-you {
+  background-color: rgba(47, 123, 255, 0.623);
+}
+
+.bg-orange {
+  background-color: #F59758;
+}
+
+.product__card {
+  width: 233px;
+}/*# sourceMappingURL=style.css.map */
