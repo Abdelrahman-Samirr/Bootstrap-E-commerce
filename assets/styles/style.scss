@@ -34,7 +34,6 @@ $border-radius-5: 5px;
 
 body {
     overflow-x: hidden;
-    max-width: 1920px;
 }
 
 h1,
@@ -45,8 +44,7 @@ p {
 }
 
 .custom-container {
-    width: 100%;
-    max-width: 1586px;
+    width: 82.6%;
     color: $text-color;
     margin: 0 auto;
 }
@@ -207,7 +205,8 @@ p {
 }
 
 .hero__right-content{
-    padding: 100px 500px 0 65px;
+    width: 61%;
+    padding: 100px 0 0 65px;
 }
 
 .hero__right-content p{
@@ -215,7 +214,7 @@ p {
 }
 
 form{
-    width: 450px;
+    width: 65%;
 }
 
 .product-head{
@@ -245,14 +244,14 @@ form{
 }
 
 .product__card{
-    width: 233px;
+    width: 100%;
 }
 
 .shop__card{
     background-size: cover;
     background-repeat: no-repeat;
     height: 244.5px;
-    width: 33.333%;
+    width: 100%;
 }
 .shop1{
     background-image: url('../images/banner-1.png.png');
@@ -274,7 +273,12 @@ form{
 }
 
 .stay-home__content{
+    width: 40%;
     padding: 83px 0 84px 78px;
+}
+
+.stay-home__content form{
+    width: 80%;
 }
 
 .stay-home__content p{
