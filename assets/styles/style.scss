@@ -44,7 +44,7 @@ p {
 }
 
 .custom-container {
-    width: 82.6%;
+    width: 83%;
     color: $text-color;
     margin: 0 auto;
 }
@@ -69,12 +69,15 @@ p {
 .font-size-24 {
     font-size: $font-size-24;
 }
+
 .font-size-30 {
     font-size: $font-size-30;
 }
+
 .font-size-36 {
     font-size: $font-size-36;
 }
+
 .font-size-40 {
     font-size: $font-size-40;
 }
@@ -90,7 +93,8 @@ p {
 .gray {
     color: $gray-color;
 }
-.text-color{
+
+.text-color {
     color: $text-color;
 }
 
@@ -106,6 +110,7 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+
 .flex-content-start {
     display: flex;
     justify-content: flex-start;
@@ -178,9 +183,10 @@ p {
 }
 
 /////////////////////////////////////////
-.nav__left{
+.nav__left-width {
     width: 19%;
 }
+
 .nav__left-category {
     width: 100%;
     margin-top: 30px;
@@ -192,7 +198,7 @@ p {
 
 }
 
-.hero__right{
+.hero__right {
     width: 79%;
 }
 
@@ -204,66 +210,69 @@ p {
     height: 586px;
 }
 
-.hero__right-content{
+.hero__right-content {
     width: 61%;
     padding: 100px 0 0 65px;
 }
 
-.hero__right-content p{
+.hero__right-content p {
     padding: 31px 0 65px;
 }
 
-form{
+form {
     width: 65%;
 }
 
-.product-head{
+.product-head {
     border-radius: 0 0 25px 0;
     color: $light-color;
 }
 
-.bg-hot{
+.bg-hot {
     background-color: #F74B81;
 
 }
 
-.bg-sale{
+.bg-sale {
     background-color: #67BCEE;
 }
 
-.bg-new{
+.bg-new {
     background-color: $primary-color;
 }
 
-.bg-you{
+.bg-you {
     background-color: rgba(47, 123, 255, 0.623);
 }
 
-.bg-orange{
+.bg-orange {
     background-color: #F59758;
 }
 
-.product__card{
+.product__card {
     width: 100%;
 }
 
-.shop__card{
+.shop__card {
     background-size: cover;
     background-repeat: no-repeat;
     height: 244.5px;
     width: 100%;
 }
-.shop1{
+
+.shop1 {
     background-image: url('../images/banner-1.png.png');
 }
-.shop2{
+
+.shop2 {
     background-image: url('../../assets/images/banner-2.png.png');
 }
-.shop3{
+
+.shop3 {
     background-image: url('../../assets/images/banner-3.png.png');
 }
 
-.stay-home{
+.stay-home {
     background-image: url('../../assets/images/Footer\ →\ Section.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -272,15 +281,32 @@ form{
     margin-bottom: 50px;
 }
 
-.stay-home__content{
+.stay-home__content {
     width: 40%;
     padding: 83px 0 84px 78px;
 }
 
-.stay-home__content form{
+.stay-home__content form {
     width: 80%;
 }
 
-.stay-home__content p{
+.stay-home__content p {
     padding: 20px 0 46px;
 }
+
+
+/////////////////////////////////////
+
+@media (max-width: 768px) {
+    .nav__left-width {
+      width: 100%;
+    }
+
+    .hero__right{
+        width: 100%;
+    }
+
+    .stay-home__content{
+        width: 100%;
+    }
+  }

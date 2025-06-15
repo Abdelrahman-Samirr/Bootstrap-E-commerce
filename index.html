@@ -11,9 +11,23 @@
 </head>
 
 <body>
-    <nav class="nav">
+    <nav class="nav navbar ">
         <div class="custom-container flex-center">
-            <div class="nav__search-part flex-center me-auto">
+            <div class="d-md-none d-flex justify-content-between align-items-center w-100 mb-4">
+                <button class="btn btn-outline-primary " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h3 class="ms-3 fw-semibold display-4">Logo</h3>
+                <div class="d-flex gap-4">
+                    <div class=""><img src="assets/images/icon-heart.svg fill.png" alt="heart icon"></div>
+                    <div class=""><img src="assets/images/icon-cart.svg fill.png" alt="cart icon"></div>
+                </div>
+
+            </div>
+
+            <div class="nav__search-part flex-center me-auto  d-none d-md-flex">
                 <div class="logo flex-center me-auto">
                     <div class="logo__pic"><img src="assets/images/Header.png" alt="Logo pic"></div>
                     <h3 class="ms-3 fw-semibold">Logo</h3>
@@ -26,7 +40,7 @@
                     <div class="search-icon"><img src=".../../assets/images/search.png" alt="search icon"></div>
                 </div>
             </div>
-            <div class="nav__items flex-center">
+            <div class="nav__items flex-center d-none d-md-flex">
                 <div class="nav__item flex-center px-2 py-1 shadow-sm rounded-3">
                     <div class=""><img src="assets/images/Icon.png" alt="location icon"></div>
                     <p class="ms-2 primary-color">Your Location</p>
@@ -48,7 +62,7 @@
         </div>
     </nav>
     <main>
-        <section class="links border-bottom border-top">
+        <section class="links border-bottom border-top d-none d-md-block">
             <div class="custom-container flex-center">
                 <div class="left__links flex-center me-auto">
                     <button class="py-3 px-4 fw-bold button">
@@ -93,8 +107,8 @@
             </div>
         </section>
         <section class="hero">
-            <div class="custom-container d-flex justify-content-between ">
-                <div class="nav__left">
+            <div class="custom-container d-block justify-content-between d-md-flex">
+                <div class="nav__left nav__left-width pb-4 pb-md-0">
                     <div class="nav__left-category card p-4 shadow-sm rounded-4 ">
                         <h5 class="fw-bold mb-4 font-size-24 border-bottom pb-3">Category</h5>
 
@@ -172,7 +186,7 @@
                     </div>
                 </div>
                 <div class="hero__right mt-2">
-                    <div class="hero__right__image rounded-4">
+                    <div class="hero__right__image rounded-4 d-none d-md-block">
                         <div class="hero__right-content">
                             <h1 class="fw-bold display-2">"অবিশ্বাস্য গ্রোসারি ডিল মিস করবেন না"</h1>
                             <p class="font-size-30 gray">Sign up for the daily newsletter</p>
@@ -185,8 +199,8 @@
                         </div>
                     </div>
                     <div class="hero__products">
-                        <div class="flex-content-between gap-4 mt-4">
-                            <div class="product__card">
+                        <div class="flex-content-between d-md-flex d-block gap-4 mt-4">
+                            <div class="product__card mb-4 mb-md-0">
                                 <div class="card position-relative overflow-hidden rounded-4 ">
                                     <span class="product-head position-absolute top-0 px-4 py-2 bg-hot">Hot</span>
                                     <figure class="mx-auto pt-4"><img class="w-100"
@@ -210,7 +224,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__card">
+                            <div class="product__card mb-4 mb-md-0">
                                 <div class="card position-relative overflow-hidden rounded-4 ">
                                     <span class="product-head position-absolute top-0 px-4 py-2 bg-sale">sale</span>
                                     <figure class="mx-auto pt-4"><img class="w-100"
@@ -234,7 +248,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__card">
+                            <div class="product__card mb-4 mb-md-0">
                                 <div class="card position-relative overflow-hidden rounded-4 ">
                                     <span class="product-head position-absolute top-0 px-4 py-2 bg-new">New</span>
                                     <figure class="mx-auto pt-4"><img class="w-100"
@@ -258,7 +272,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__card">
+                            <div class="product__card mb-4 mb-md-0">
                                 <div class="card position-relative overflow-hidden rounded-4 ">
                                     <span class="product-head position-absolute top-0 px-4 py-2 bg-you">For you</span>
                                     <figure class="mx-auto pt-4"><img class="w-100"
@@ -282,7 +296,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="product__card">
+                            <div class="product__card mb-4 mb-md-0">
                                 <div class="card position-relative overflow-hidden rounded-4 ">
                                     <span class="product-head position-absolute top-0 px-4 py-2 bg-orange">-14%</span>
                                     <figure class="mx-auto pt-4"><img class="w-100"
@@ -309,20 +323,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero__shop flex-content-between gap-4 my-5">
-                        <div class="shop__card rounded-4 shop1 ">
+                    <div class="hero__shop flex-content-between d-md-flex d-block gap-4 my-5">
+                        <div class="shop__card rounded-4 shop1 mb-4 mb-md-0">
                             <div class="shop__content p-4 mt-4">
                                 <h3 class="font-size-24 mb-2 pe-5">Everyday Fresh & Clean with Our Products</h3>
                                 <button class="button mt-5 px-3 py-2 rounded-2 cursor-pointer">Shop Now</button>
                             </div>
                         </div>
-                        <div class="shop__card rounded-4 shop2 ">
+                        <div class="shop__card rounded-4 shop2 mb-4 mb-md-0">
                             <div class="shop__content p-4 mt-4">
                                 <h3 class="font-size-24 mb-2 pe-5">Make your Breakfast Healthy and Easy</h3>
                                 <button class="button mt-5 px-3 py-2 rounded-2 cursor-pointer">Shop Now</button>
                             </div>
                         </div>
-                        <div class="shop__card rounded-4 shop3 ">
+                        <div class="shop__card rounded-4 shop3 mb-4 mb-md-0">
                             <div class="shop__content p-4 mt-4">
                                 <h3 class="font-size-24 me-5 pe-5">Everyday Fresh & Clean with Our Products</h3>
                                 <button class="button mt-5 px-3 py-2 rounded-2 cursor-pointer">Shop Now</button>
@@ -335,7 +349,7 @@
         <section>
             <div class="custom-container">
                 <div class="stay-home">
-                    <div class="stay-home__content">
+                    <div class="stay-home__content ">
                         <h1 class="fw-bold font-size-40">Stay home & get your daily
                             needs from our shop</h1>
                         <p class="font-size-18 gray">Start You'r Daily Shopping with <span class="primary-color">Nest
@@ -357,7 +371,7 @@
         <div class="custom-container">
             <div class="row border-bottom pb-4 mb-4">
 
-                <div class="col-3">
+                <div class="col-md-3 col-6 mb-3 mb-md-0 ">
                     <div class="mb-3 d-flex align-items-center gap-2">
                         <img src="assets/images/Group.png" alt="Logo" width="40">
                         <h5 class="m-0 font-size-36">Logo</h5>
@@ -376,7 +390,7 @@
                     </ul>
                 </div>
 
-                <div class="col-2">
+                <div class="col-md-2 col-6 mb-3 mb-md-0 ps-5 ps-md-0">
                     <h6 class="fw-bold mb-3 font-size-24">Company</h6>
                     <ul class="list-unstyled">
                         <li class="mb-1"><a href="#" class="text-decoration-none font-size-16 text-color">About Us</a>
@@ -396,7 +410,7 @@
                     </ul>
                 </div>
 
-                <div class="col-2 ">
+                <div class="col-md-2 col-6 mb-3 mb-md-0">
                     <h6 class="fw-bold mb-3 font-size-24">Account</h6>
                     <ul class="list-unstyled text-muted small">
                         <li class="mb-1"><a href="#" class="text-decoration-none font-size-16 text-color">Sign In</a>
@@ -416,7 +430,7 @@
                     </ul>
                 </div>
 
-                <div class="col-2 ">
+                <div class="col-md-2 col-6 mb-3 mb-md-0 ps-5 ps-md-0">
                     <h6 class="fw-bold mb-3 font-size-24">Corporate</h6>
                     <ul class="list-unstyled text-muted small">
                         <li class="mb-1"><a href="#" class="text-decoration-none font-size-16 text-color">Become a
@@ -436,14 +450,14 @@
                     </ul>
                 </div>
 
-                <div class="col-3">
+                <div class="col-md-3 col-12">
                     <h6 class="fw-bold mb-3 font-size-24">Install App</h6>
                     <div class="mb-3 d-flex gap-2">
                         <img class="rounded-2" src="assets/images/Link → app-store.jpg.png" alt="App Store" width="120">
                         <img class="rounded-2" src="assets/images/Link → google-play.jpg.png" alt="Google Play"
                             width="120">
                     </div>
-                    <p class="font-size-16 my-5">Secured Payment Gateways</p>
+                    <p class="font-size-16 my-md-5 my-4">Secured Payment Gateways</p>
                     <div class="d-flex gap-2">
                         <p class="font-size-16 me-2 fw-bold">Follow Us</p>
                         <img src="assets/images/Link.png" width="25">
@@ -456,8 +470,8 @@
                 </div>
             </div>
 
-            <div class="flex-content-between mb-3">
-                <p class="mb-0">&copy; 2022 <a href="#" class="primary-color text-decoration-none">Nest</a> - HTML
+            <div class="flex-content-between d-block d-md-flex mb-3">
+                <p class="mb-md-0 mb-4">&copy; 2022 <a href="#" class="primary-color text-decoration-none">Nest</a> - HTML
                     Ecommerce Template</p>
                 <div class="d-flex align-items-center gap-4 mt-2 mt-md-0">
                     <div class="flex-center gap-3">
@@ -467,7 +481,7 @@
                             <p class="font-size-14 gray">Working: 8:00 - 22:00</p>
                         </div>
                     </div>
-                    <div class="flex-center gap-3">
+                    <div class="flex-center gap-3 ps-md-0 ps-3">
                         <img src="assets/images/phone-call.svg fill.png" alt="phone icon">
                         <div>
                             <span class="font-size-24 primary-color fw-bold">01234567</span>
@@ -478,6 +492,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

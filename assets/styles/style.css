@@ -17,7 +17,7 @@ p {
 }
 
 .custom-container {
-  width: 82.6%;
+  width: 83%;
   color: #253D4E;
   margin: 0 auto;
 }
@@ -148,7 +148,7 @@ p {
   font-size: 12px;
 }
 
-.nav__left {
+.nav__left-width {
   width: 19%;
 }
 
@@ -255,4 +255,16 @@ form {
 
 .stay-home__content p {
   padding: 20px 0 46px;
+}
+
+@media (max-width: 768px) {
+  .nav__left-width {
+    width: 100%;
+  }
+  .hero__right {
+    width: 100%;
+  }
+  .stay-home__content {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
